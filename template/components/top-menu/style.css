@@ -1,0 +1,12 @@
+.menu {
+	width: 100%;
+	height:25px;
+	background: #FFFFFF;
+	outline: white solid 2px;
+	color: black;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+.name {
+	margin-left: 5px;
+}

@@ -1,0 +1,84 @@
+.consolecontainer {
+    width: 100%;
+    margin-left: 5px;
+	text-align: center;
+}
+
+.println {
+}
+.cmd {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    font-family: 'Abel', sans-serif;
+
+}
+.cmd:focus {
+    border: none;
+}
+.cmd:active {
+    background-color: transparent;
+}
+.cmdund {
+    color: white;
+    font-size: 20px;
+    animation: blinker 1s infinite step-end;
+}
+@keyframes blinker {
+    from, to { opacity: 0; }
+
+    50% {opacity: 1;}
+}
+label {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+.input {
+    margin-left: 5px;
+	display: flex;
+	align-items: flex-end;
+}
+.info {
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.commands {
+}
+.company {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+.commandline {
+    display: flex;
+    width:100%;
+}
+.commandwindow {
+    width: 100%;
+}
+.para {
+    color: white;
+    font-size: 28px;
+    font-family: 'Abel', sans-serif;
+}
+.submit {
+	outline: white solid 1px;
+	width: 25%;
+	background-color: transparent;
+	color: white;
+	padding: 0;
+	border: 0;
+}
+@media screen and (max-width: 601px) {
+	.para {
+		font-size: 1rem;
+	}
+	label {
+		font-size: 1rem;
+	}
+	.cmd {
+		font-size: 1rem;
+	}
+}
